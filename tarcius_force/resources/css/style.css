@@ -1,0 +1,257 @@
+@font-face {
+    font-family: "Web-Raleway";
+    src:url('../fonts/Raleway-Regular.eot');
+    src:url('../fonts/Raleway-Regular.eot?#iefix') format("embedded-opentype"),
+    url('../fonts/Raleway-Regular.woff') format("woff"),
+    url('../fonts/Raleway-Regular.ttf') format("truetype"),
+    url('../fonts/Raleway-Regular.svg#web') format("svg");
+    font-style: normal;font-weight:normal;
+}
+
+@font-face {
+    font-family: "Web-Raleway-Bold";
+    src:url('../fonts/__Raleway-Bold.eot');
+    src:url('../fonts/__Raleway-Bold.eot?#iefix') format("embedded-opentype"),
+    url('../fonts/__Raleway-Bold.woff') format("woff"),
+    url('../fonts/__Raleway-Bold.ttf') format("truetype"),
+    url('../fonts/Raleway-Bold.svg#web') format("svg");
+    font-style: normal;font-weight:normal;
+}
+
+body{
+    marigin : 0;
+    font-family: Raleway;
+    font-size: 14px;
+    color: #373737;
+}
+.clear{
+    float: none;
+    clear: both;
+}
+.center{
+    width: 961px;
+    marigin : 0 auto ;
+
+}
+
+#header{
+
+    padding: 40px 0;
+}
+#header #logo{
+    float: left;
+    margin-top: auto;
+
+}
+
+#header .navigation{
+    float: right;
+}
+
+#header .navigation ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#header .navigation ul li{
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Web-Raleway";
+    font-weight: bold;
+}
+
+#header .navigation ul li a{
+    display: inline-block;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    color: #373737;
+    text-decoration: none;
+}
+
+#header .navigation ul li a:hover{
+    color: #0b63cc;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s ;
+    -ms-transition: 0.3s ;
+    -o-transition: 0.3s;
+    transition: 0.3s ;
+}
+
+#banner{
+    background: url("../image/background.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 115px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#banner h1{
+    font-size: 44px;
+    font-family: "Web-Raleway";
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#banner h2{
+    font-size: 26px;
+    font-family: "Web-Raleway";
+    font-weight: normal;
+    margin-bottom: 28px;
+
+}
+
+.btn-primary{
+    border: solid 2px #ffffff;
+    color: white;
+    text-transform:uppercase;
+    font-family: "Web-Raleway";
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    display:inline-block;
+}
+
+.btn-primary:hover,
+.content-list .list-services .button a:hover{
+    background: #ffffff;
+    color: #0b63d2;
+
+
+}
+
+/* our services */
+#our-services{
+    padding: 25px 0px;
+    font-family: "Web-Raleway";
+}
+
+#our-services .title-content{
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#our-services .title-content span{
+    text-transform: uppercase;
+    font-family: "Web-Raleway";
+
+}
+
+.content-list .list-services{
+    background-color: #0b63d2;
+    padding: 18px;
+    float: left;
+    width: 45%;
+    color: #ffffff;
+}
+
+.content-list .list-services.last{
+    float: right;
+}
+
+.content-list .list-services h2{
+    text-transform: uppercase;
+    font-family: "Web-Raleway";
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.content-list .list-services .text{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.content-list .list-services .button a{
+    display: inline-block;
+    padding: 10px 15px;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Web-Raleway";
+}
+
+#notifications-subscribe{
+    background: #d7d7d7;
+    padding: 25px 0;
+    margin-top: 30px;
+}
+
+#notifications-subscribe h2{
+    font-family: "Web-Raleway";
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#notifications-subscribe h3{
+    font-family: "Web-Raleway";
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+#notifications-subscribe .left-content{
+    float: left;
+}
+
+#notifications-subscribe .right-content{
+    float: right;
+    padding-top: 35px;
+}
+
+#notifications-subscribe .large-btn{
+    display: inline-block;
+    background: #0b63d2;
+    font-family: "Web-Raleway";
+    font-weight: bold;
+    font-size: 24px;
+    padding: 18px 45px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+#notifications-subscribe .large-btn:hover{
+    background: #373737;
+}
+
+#footer{
+    background: #373737;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 1095px)  {
+    .center{
+        width: auto;
+        padding: 0 20px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 826px){
+    #notifications-subscribe .left-content,
+    #notifications-subscribe .right-content{
+        float: none;
+        text-align: center;
+    }
+    #notifications-subscribe .right-content{
+        padding-top: 10px;
+    }
+    .content-list .list-services,
+    .content-list .list-services.last{
+        width: auto;
+        display: block;
+        float: none;
+        margin-bottom: 15px;
+    }
+
+}
